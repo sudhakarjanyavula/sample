@@ -19,7 +19,7 @@ class Api::UserController < ApplicationController
 
 	def destroy
 		User.delete(params[:id])
-		render jsaon: []
+		render json: []
 	end
 
 	def typeahead

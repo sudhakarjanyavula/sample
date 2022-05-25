@@ -55,3 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'pry'
 gem 'will_paginate'
+gem 'rspec-rails'
+gem 'simplecov'
+gem 'factory_bot_rails'
